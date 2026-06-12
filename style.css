@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+    text-align: center;
+   background: linear-gradient(90deg, #f83200, #feb47b);
+    padding: 10px;
+      color: white;
+    text-shadow: 0 0 5px #ffb9b9,
+                 0 0 10px #716363,
+                 0 0 20px #8f8684;
+    
+    
+
+
+
+   
+}
+
+   .title:hover {
+        background: linear-gradient(90deg, #feb47b, #f83200);
+        color: white;
+        transition: background 0.5s ease;
+        
+    } 
+p{
+    font-size: 16px;
+    color: #3a3a3a;
+    
+      font-family: "Dancing Script", cursive;
+      font-weight: 500;
+      font-size: 30px;
+}
+.card{
+    width: 290px;
+    min-height: 600px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+}
+
+.card:hover img{
+    transform: scale(1.05);
+}
+
+.card-title{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-description{
+    min-height: 100px;
+    line-height: 1.5;
+}
+
+.card-button{
+    margin-top: auto;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg,#ff512f,#ff9966);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.contact{
+    background: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+     border: #3a3a3a solid 3px;
+     
+     text-align: center;
+     background-color: #3a3a3a;
+     
+}
+.contact h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+.contact p{
+    font-size: 16px;
+    color: #ff512f;
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.contact-form{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.contact-form input,
+.contact-form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+.contact-form button{
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg,#ff512f,#ff9966);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
